@@ -1,0 +1,18 @@
+{
+  "name": "chordsPractice",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "inquirer": "^0.11.0",
+    "keypress": "^0.2.1",
+    "midi": "^0.9.4",
+    "play-sound": "0.0.7"
+  },
+  "bin": {
+    "somechords": "app.js"
+  }
+}
